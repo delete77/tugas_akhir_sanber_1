@@ -1,0 +1,26 @@
+{
+  "name": "tugas_akhir_sanber_1",
+  "version": "1.0.0",
+  "description": "web automation tugas akhir 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx run ./wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js",
+    "allure-report" : "allure generate reports/allure-results/ --clean && allure open"
+  
+  },
+  "author": "Cahyo Eko",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/register": "^7.23.7",
+    "@wdio/cli": "^8.36.1",
+    "@wdio/cucumber-framework": "^8.36.1",
+    "@wdio/local-runner": "^8.36.1",
+    "@wdio/spec-reporter": "^8.36.1"
+  },
+  "dependencies": {
+    "@wdio/allure-reporter": "^8.36.1"
+  }
+}

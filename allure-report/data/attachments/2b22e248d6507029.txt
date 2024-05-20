@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "a.chakra-button.css-1piskbq[href=\"/categories/create\"]"
+}
